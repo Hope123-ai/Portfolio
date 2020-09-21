@@ -2,6 +2,7 @@ h1{
     text-align: center;
     background-color: gray;
     color: lightyellow;
+    border-radius: 10px;
 
 
 }
@@ -23,11 +24,72 @@ ul {
     list-style: none;
 }
 
+#aboutme-container{
+    /* background-color: black; */
+     /* background-color: #cbce91ff;  */
+    /* background-color: #9c8aa4; */
+    /* background-color: rgb(167, 170, 173); */
+    background-color: #000044;
+    padding: 2.5rem;
+    border-radius: 10px;
+    
+    /* background-color: #B4DD7F; */
+    margin: 2rem;
+}
+
+/* #abtme{
+    text-align: center;
+} */
+
+#about-me-text{
+    /* color: burlywood; */
+    color: white;
+    font-size: 25px;
+    /* font-weight: bold; */
+
+}
+
+#about-me-sub-text{
+
+    /* padding-left: 1rem; */
+    /* color: #EAF6FF; */
+    color: white;
+    /* color: yellowgreen; */
+    font-size: 25px;
+    /* font-weight: bold; */
+
+}
+#about-me-last-text{
+    
+    color: white;
+    /* color: #FFFFFF; */
+    /* color: #FCD770; */
+
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+
+#about-me-header{
+    text-align: center;
+    padding-left: 9rem;
+    font-size: 60px;
+    /* color: greenyellow; */
+    /* color: violet; */
+    color: yellow;
+
+}
 #menu-item{
     padding: 10px;
 }
-.container{
-    background-color: lightblue;
+.container-fluid{
+    border-radius: 10px;
+}
+.contact-form{
+    /* background-color: #EEC0A5; */
+    background-color: #333333;
+    color: white;
+    margin: 1.5rem !important;
+    border-radius: 10px;
 }
 /* #thumbnail:hover {
     position:relative;
@@ -60,19 +122,39 @@ ul {
     display:block;
     z-index:999;
 }
-
+#card-headline{
+    font-style: bold;
+    color: grey;
+    /* background-color:; */
+}
+#topic{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* h6{
+    color: black;
+} */
 #projects{
     
     background-color: lightslategrey;
     height: 50%;
     margin: 25px 25px 0px 25px;
 }
+#btn-id{
+    border-radius: 8px;
+    padding: 4px;
+}
+
 
 #skills{
-    background-color: rgb(167, 170, 173);
+    /* background-color: rgb(167, 170, 173); */
     height: 50%;
+     /* background-color: #cbce91ff;  */
+    /* background-color: lavender; */
     margin: 25px 25px 25px 25px;
     color: whitesmoke;
+    /* background-color: #a7aaad; */
     padding-bottom: 5rem;
     border-radius: 10px;    
 }
@@ -85,7 +167,9 @@ ul {
 
 #decorate{
     margin: 2rem;
-    background-color: indigo;
+    background-color: rgb(101, 8, 167);
+    /* background-color: ; */
+    /* background-color: grey; */
     border-radius: 10px;
 }
 
@@ -96,6 +180,16 @@ ul {
 h2{
     text-align: center;
     color: white;
+}
+#click{
+    border: 3px solid violet;
+    /* border-width: 3px; */
+    padding: 1rem;
+    color: tomato;
+    margin: 1rem;
+    font: outline;
+   font-size: 20px;
+    /* font-weight: bold; */
 }
 
 .msg-inputbox{

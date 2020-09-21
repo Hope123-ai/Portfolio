@@ -8,16 +8,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
     <body>
-        <!-- <div class='m-0 d-flex flex-direction-row' id='header'>
-                <div class='nav-bar ml-auto'>
-                    <ul>
-                        <li id="menu-item">Home</li>
-                        <li id="menu-item">About</li>
-                        <li id="menu-item">Resume</li>
-                        <li id="menu-item">Contact</li>
-                    </ul>
-                </div>
-        </div> -->
+       
         <h1>WELCOME </h1>
 
         <!-- CARD STARTS -->
@@ -52,9 +43,34 @@
         </div>
         <!-- CARD ENDS -->
 
-        <!-- <div id='projects'>
+        <div id='projects'>
+
+            <h2>PROJECTS</h2>
+            <div class="d-flex flex-column">
+                <div class="card" style="width: 30rem;" id='boxes'>
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src='images/library.png' width='150px' height='150px' id='thumbnail'/>
+                      <h6 class="card-subtitle mb-2 p-3 text-muted"></h6><p id='topic'>Library Management System</p>
+
+                            </div>
+                            <div class="col-6 pt-4">
+                                <p id='card-headline'>An online used vehicle shop system is modeled after interviewing with the shop manager using XML and CSS. It shows the details of the vehicles available in the market.
+                                </p>
+
+                            </div>
+                        </div>
+                      
+                    </div>
+                  </div>
+            </div>
+
             
-        </div> -->
+        </div>
+
+
+
         <div id='skills'>
             <h2>SKILLS</h2>
             <div class="row pb-4">
@@ -96,23 +112,76 @@
 
 <!-- ABOUT ME PAGE -->
 
-        <div class='container'>
-            <h2><span>About Me</span></h2>
+        <div id='aboutme-container'>
+            <div class='row' id='abtme'>
+                <!-- <h2><span>About Me</span></h2> -->
+                    <div class="col-6">
+                        <div class='row' style="width: 100%;">
+                            <h2 id='about-me-header'><span>About Me</span></h2>
+                        </div>
+                        <div class="row">
+                            <p id="about-me-text">
+                                I am an IT Student studying in Islington College currently in final year.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <p id="about-me-sub-text">
+                                I enjoy coding and making simple and beautiful interface designs. I also love the logic and structure of coding and always to write elegant and efficient code, whether it be HTML,CSS or JavaScript.
+                                
+                            </p>
+                        </div>
+                        <div class="row">
+                            <p id="about-me-last-text">
+                                When I'm not coding, you would probably find me diving into imagination and writing poems or drawing in my room.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <button id='click'>Download CV
+                                <img src="images/pdf-file.png" height="35px" width="35px;" style="margin: 2px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class='col-6'>
+                        <img src="images/information-desk.png" style="margin: 20px;">
 
+                    </div>
+            </div>
         </div>
+            
 
+    
 
-        <div class="container">
+<!-- CONTACT FORM -->
+        <div class="container-fluid"> 
+            <div class="contact-form">
+
+            
             <h1>Let's keep in Touch!</h1>
         
             <div class="row">
                 <div class="col-6 d-flex justify-content-center align-items-center flex-column">
-                    <img src="images/Capture.PNG" height="250px" width="350px"/>     
+                    <img src="images/data.png" height="150px" width="150px"/>     
                     <div class="d-flex flex-direction-row pt-4">
-                        <img src="images/github.png" height="50px" width="50px" style="padding: 10px;"/>
-                        <img src="images/linkedin.png" height="50px" width="50px" style="padding: 10px;"/>
-                        <img src="images/instagram.png" height="50px" width="50px" style="padding: 10px;"/>
+
+                        <!-- github link -->
+                        <a href="https://github.com/Hope123-ai" target="_blank">
+                        <img src="images/github.png" height="50px" width="50px" style="padding: 10px;"></a>
+                    
+
+                                <!-- LinkedIn link -->
+                        <a href="https://www.linkedin.com/in/aasha-bhandari-46ba711b2/" target="_blank">
+                        <img src="images/linkedin.png" height="50px" width="50px" style="padding: 10px;"/></a>
+
+
+                        <!-- instagram link -->
+                        <a href="https://www.instagram.com/i_m_hope/" target="_blank">
+                        <img src="images/instagram.png" height="50px" width="50px" style="padding: 10px;"/></a>
+
+
+                        <!-- facebook link -->
                         <img src="images/facebook.png" height="50px" width="50px" style="padding: 10px;"/>
+
+
                     </div>   
                 </div>
 
@@ -155,7 +224,7 @@
                         </div>
                 </div> 
                 <div>
-                    <button class="btn-primary" onclick='myFunction()'>Submit</button>
+                    <button class="btn-primary m-3" id='btn-id' onclick='myFunction()'>Submit</button>
                     <script>
                     function myFunction(){
                         alert('thank you!');
@@ -166,6 +235,7 @@
                 </div>
                    
             </div>       
+            </div>
             </div>
         </div>
            
