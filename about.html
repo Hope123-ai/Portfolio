@@ -1,0 +1,178 @@
+<html>
+
+
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- <div class='m-0 d-flex flex-direction-row' id='header'>
+                <div class='nav-bar ml-auto'>
+                    <ul>
+                        <li id="menu-item">Home</li>
+                        <li id="menu-item">About</li>
+                        <li id="menu-item">Resume</li>
+                        <li id="menu-item">Contact</li>
+                    </ul>
+                </div>
+        </div> -->
+        <h1>WELCOME </h1>
+
+        <!-- CARD STARTS -->
+        <div class="d-flex">
+        <div class="card" style="width: 18rem;" id='boxes'>
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <img src='images/project-management.png' width='100px' height='100px' id='thumbnail'/>
+              <h6 class="card-subtitle mb-2 p-3 text-muted">Projects</h6>
+              
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;" id='boxes'>
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <img src='images/competence.png' width='100px' height="100px" id='thumbnail'/>
+              <h6 class="card-subtitle mb-2 p-3 text-muted">Skills</h6>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;" id='boxes'>
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <img src='images/student.png' width='100px' height='100px' id='thumbnail'/>
+              <h6 class="card-subtitle mb-2 p-3 text-muted">About</h6>
+            </div>
+          </div>
+        
+        
+            <div class="card" style="width: 18rem;" id='boxes'>
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                  <img src='images/mail.png' width='100px' height='100px' id="thumbnail"/>
+                  <h6 class="card-subtitle mb-2 p-3 text-muted">Contact</h6>
+                </div>
+          </div>
+        </div>
+        <!-- CARD ENDS -->
+
+        <!-- <div id='projects'>
+            
+        </div> -->
+        <div id='skills'>
+            <h2>SKILLS</h2>
+            <div class="row pb-4">
+                <div class="col-6">
+                    <div id='decorate'>
+                    <img src="images/html.png" width="50px" height="50px" id='logo'/>
+                    <span id='skill1'>
+                        HTML
+                    </span>
+                    </div>
+
+                    
+                </div>
+                <div class="col-6">
+                    <div id='decorate'>
+
+                    <img src="images/css.png" width="50px" height="50px" id='logo'/>
+                    <span id='skill1'>CSS</span>
+                </div>
+                </div>
+            
+                    <div class="col-6">
+                        <div id='decorate'>
+                        <img src="images/javascript.png" width="50px" height="50px" id='logo'/>
+                        <span id='skill1'>JavaScript</span>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div id='decorate'>
+
+                        <img src="images/bootstrap.png" width="50px" height="50px" id='logo'/>
+                        <span id='skill1'>Bootstrap</span>
+                    </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+<!-- ABOUT ME PAGE -->
+
+        <div class='container'>
+            <h2><span>About Me</span></h2>
+
+        </div>
+
+
+        <div class="container">
+            <h1>Let's keep in Touch!</h1>
+        
+            <div class="row">
+                <div class="col-6 d-flex justify-content-center align-items-center flex-column">
+                    <img src="images/Capture.PNG" height="250px" width="350px"/>     
+                    <div class="d-flex flex-direction-row pt-4">
+                        <img src="images/github.png" height="50px" width="50px" style="padding: 10px;"/>
+                        <img src="images/linkedin.png" height="50px" width="50px" style="padding: 10px;"/>
+                        <img src="images/instagram.png" height="50px" width="50px" style="padding: 10px;"/>
+                        <img src="images/facebook.png" height="50px" width="50px" style="padding: 10px;"/>
+                    </div>   
+                </div>
+
+            
+
+                <div class="col-6"> 
+
+                    <div class='row'>
+                        <!-- <div id='message'> -->
+                    <div class="message" id='d1'>
+                        <div>Name</div>
+
+                        <input type="text p-5px" class='name-inputbox'>
+                    </div>
+                </div>
+
+
+                <div class="row">       
+                        <!-- <div id='message'> -->
+                        <div class="message" id='d2'>
+                                <div>Email</div>
+                            <input type='email p-3px' class="name-inputbox">
+                        </div>
+                </div>
+                
+            
+                <div class="row">
+                    
+                        <div class="message" id='d3'>
+                            <div>Subject</div>
+                            <input type="text p-3px" class='sub-inputbox'>
+                        </div>
+                </div>
+
+                <div class="row">
+
+                        <div class="message" id='d4'>
+                            <div>Message</div>
+                            <input type="text p-3px" class='msg-inputbox'>
+                        </div>
+                </div> 
+                <div>
+                    <button class="btn-primary" onclick='myFunction()'>Submit</button>
+                    <script>
+                    function myFunction(){
+                        alert('thank you!');
+                    }
+        
+                </script>
+        
+                </div>
+                   
+            </div>       
+            </div>
+        </div>
+           
+        <footer>
+
+        </footer>
+    </body>
+
+
+</html>
