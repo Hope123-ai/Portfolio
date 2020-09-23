@@ -1,15 +1,35 @@
 h1{
     text-align: center;
-    background-color: gray;
-    color: lightyellow;
-    border-radius: 10px;
+    /* background-color: gray; */
+    /* background-color: #333333; */
+    /* background-color: #e6bbc4; */
+    color: white;
+    /* border-radius: 10px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 
+}
+#email-link{
+    color: white;
+    font-weight: bold;
+}
+h5{
+    padding-left: 1rem;
 }
 
 #header{
     background-color: lightblue;
     margin: 4px;
+}
+.progess{
+
+    padding: 10px;
+    width: 50%;
+}
+.progress-bar{
+
+    padding: 5px;
 }
 ul{
     display: flex;
@@ -85,22 +105,16 @@ ul {
     border-radius: 10px;
 }
 .contact-form{
-    /* background-color: #EEC0A5; */
-    background-color: #333333;
+    background-color: #067d93;
+    /* background-color: #333333; */
+    /* background-color: #D4D4D4; */
+    /* background-color: #333333; */
+    /* background-color: #; */
     color: white;
     margin: 1.5rem !important;
     border-radius: 10px;
 }
-/* #thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:150px;
-    height: auto;
-    display:block;
-    z-index:999;
-    box-shadow: 0 0 11px rgba(33,33,33,.2);;
-} */
+
 #message{
     padding-top: 2rem;
     margin: 2px;
@@ -111,8 +125,7 @@ ul {
     align-items: center;
     background-color: rgb(133, 156, 180);
 }
-
-.card:hover {
+.card-categories:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     position:relative;
     top:-25px;
@@ -121,25 +134,41 @@ ul {
     height: auto;
     display:block;
     z-index:999;
+
+
+
+
 }
+
+
 #card-headline{
     font-style: bold;
     color: grey;
-    /* background-color:; */
+
 }
 #topic{
     color: black;
     font-weight: bold;
     font-size: 15px;
 }
-/* h6{
-    color: black;
-} */
-#projects{
-    
+
+#project-container {
+    display: flex;
+    flex-direction: row;
     background-color: lightslategrey;
-    height: 50%;
+    margin: 25px 25px 10px 25px;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+#projects{
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
     margin: 25px 25px 0px 25px;
+    border-radius: 10px;
+    margin: 5rem;
+    
 }
 #btn-id{
     border-radius: 8px;
@@ -148,28 +177,23 @@ ul {
 
 
 #skills{
-    /* background-color: rgb(167, 170, 173); */
-    height: 50%;
-     /* background-color: #cbce91ff;  */
-    /* background-color: lavender; */
     margin: 25px 25px 25px 25px;
     color: whitesmoke;
-    /* background-color: #a7aaad; */
+    background-color: #2E2C2F;
     padding-bottom: 5rem;
     border-radius: 10px;    
 }
 
 #skill1{
     padding: 1rem;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 #decorate{
     margin: 2rem;
-    background-color: rgb(101, 8, 167);
-    /* background-color: ; */
-    /* background-color: grey; */
+    background-color: lightsteelblue;
+    color: black;
     border-radius: 10px;
 }
 
@@ -183,13 +207,12 @@ h2{
 }
 #click{
     border: 3px solid violet;
-    /* border-width: 3px; */
     padding: 1rem;
-    color: tomato;
+    color: greenyellow;
     margin: 1rem;
     font: outline;
    font-size: 20px;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
 .msg-inputbox{
@@ -215,21 +238,27 @@ h2{
 }
 
 body{
-    background-color: lightgrey !important;
+    background-color: #92c2cc !important;
+    color: blanchedalmond;
+
+}
+
+h3{
+    color: wheat;
 }
 #d1{
     margin: 3px;  
-    width: 75%; 
+    width: 70%; 
 }
 
 #d2{
     margin: 3px;
-    width: 75%;
+    width: 70%;
 }
 
 #d3{
     margin: 3px;
-    width: 75%;
+    width: 70%;
 }
 
 #d4{
